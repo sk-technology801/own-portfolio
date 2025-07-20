@@ -131,7 +131,7 @@ const Header = () => {
         <motion.div variants={logoVariants}>
           <Link href="/" className="text-4xl font-extrabold tracking-tight relative group">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-green-500 to-green-700 drop-shadow-[0_3px_6px_rgba(34,197,94,0.8)]">
-              YourName
+              SK-TECHNLOGY-801
             </span>
             <span className="absolute -inset-1 bg-gradient-to-r from-green-600 to-green-800 opacity-30 blur-lg group-hover:blur-xl transition-all duration-500" />
           </Link>

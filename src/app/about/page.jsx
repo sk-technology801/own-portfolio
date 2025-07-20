@@ -74,7 +74,7 @@ const AnimatedAvatar = () => {
   return (
     <div className="relative w-48 h-48 mx-auto">
       <motion.img
-        src="https://via.placeholder.com/150?text=Avatar"
+        src="/projects/sk.png.jpeg"
         alt="Avatar"
         className="w-full h-full rounded-full border-4 border-green-500 dark:border-gray-300 shadow-[0_0_15px_rgba(34,197,94,0.7)] dark:shadow-[0_0_15px_rgba(255,255,255,0.7)]"
         onMouseEnter={handleHover}

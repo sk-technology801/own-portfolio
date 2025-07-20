@@ -56,33 +56,21 @@ export default function Projects() {
   // Sample project data
   const projects = [
     {
-      title: 'Web Portfolio',
-      description: 'A cutting-edge portfolio with advanced animations.',
-      category: 'Web',
-      link: '/projects/web-portfolio',
-      image: 'https://via.placeholder.com/300x200?text=Web+Portfolio',
+        title: 'Web Portfolio',
+    description: 'A cutting-edge portfolio with advanced animations.',
+    category: 'Web',
+    link: 'https://portfolio-16f6.vercel.app/',
+    image: '/projects/own.jpg', // ✅ Correct image path only
     },
     {
-      title: 'ML Dashboard',
+      title: 'Medical',
       description: 'A real-time machine learning analytics platform.',
       category: 'ML',
-      link: '/projects/ml-dashboard',
-      image: 'https://via.placeholder.com/300x200?text=ML+Dashboard',
+      link: 'https://madical-nrfm-kv3n8mq15-sk-technology801s-projects.vercel.app/',
+      image: '/projects/image.png',
     },
-    {
-      title: 'AR Experience',
-      description: 'An immersive augmented reality mobile app.',
-      category: 'AR',
-      link: '/projects/ar-experience',
-      image: 'https://via.placeholder.com/300x200?text=AR+Experience',
-    },
-    {
-      title: 'E-Commerce Platform',
-      description: 'A scalable online store with dynamic features.',
-      category: 'Web',
-      link: '/projects/ecommerce',
-      image: 'https://via.placeholder.com/300x200?text=E-Commerce',
-    },
+    
+   
   ];
 
   // Filtered projects based on category
