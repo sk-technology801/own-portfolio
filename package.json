@@ -1,0 +1,26 @@
+{
+  "name": "own-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.108.0",
+    "@react-three/fiber": "^8.16.8",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.28",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.10.3",
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.4.4"
+  }
+}
